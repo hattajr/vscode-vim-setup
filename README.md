@@ -18,5 +18,5 @@
       "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
     }
       ```
-1. install **which-key** vscode extension
+1. Install **which-key** vscode extension and copy the **which-key** extension settings from  `setting.json` file into you vscode settings.
   
