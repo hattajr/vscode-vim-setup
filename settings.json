@@ -1,4 +1,4 @@
-{
+
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
   "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.vim",
