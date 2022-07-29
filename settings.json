@@ -160,7 +160,7 @@
           "type": "command",
           "command": "workbench.action.debug.stepOut"
         },
-        {
+        
           "key": "b",
           "name": "Toggle breakpoint",
           "type": "command",
