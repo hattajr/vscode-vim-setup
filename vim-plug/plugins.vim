@@ -19,5 +19,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Status bar
     Plug 'itchyny/lightline.vim'
-
+    " Comment
+    Plug 'tpope/vim-commentary'
 call plug#end()

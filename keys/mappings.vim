@@ -42,3 +42,6 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Dar
+
+" commnetraty
+noremap <leader>/ :Commentary<cr>

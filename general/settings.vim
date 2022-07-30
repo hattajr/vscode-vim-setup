@@ -41,7 +41,14 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set laststatus=2
+set path+=**
+set wildmenu
 "set autochdir                           " Your working directory will always be the same as your working directory
+
+filetype plugin on
+
+autocmd FileType sh,python,text setlocal commentstring=#%s
+autocmd FileType xml,html setlocal commentsring=<!--%s--> # here %s is the content wrapped by comment stringst
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 

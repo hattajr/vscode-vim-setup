@@ -15,7 +15,7 @@
     {
       "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
       "vscode-neovim.useWSL": true,
-      "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
+      "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim"
     }
       ```
 1. Install **which-key** vscode extension and copy the **which-key** extension settings from  `setting.json` file into you vscode settings.
